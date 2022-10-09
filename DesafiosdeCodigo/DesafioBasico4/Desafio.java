@@ -12,7 +12,9 @@ public class Desafio {
 
        // System.out.println("Digite um número: ");
         int num = number.nextInt();
-
+        verificar(num);
+    }
+    static void verificar(int num){
         if (num % 3 == 0 && num % 5 == 0) {
             System.out.println("FizzBuzz");
         } else if (num % 3 == 0 || num % 5 == 0) {
@@ -24,7 +26,6 @@ public class Desafio {
         } else {
             System.out.println(num);
         }
-
     }
 
 }
